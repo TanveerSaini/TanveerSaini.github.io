@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Tanveer Saini</title>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">	
+					<style>
+						body{
+							text-align:Center;
+							font-family:"Arial";
+							background:url('https://images.pexels.com/photos/129922/pexels-photo-129922.jpeg?w=940&h=650&auto=compress&cs=tinysrgb');
+							background-size:cover;
+							color:white;
+						}
+						img{ 
+							border-radius:50%;
+							width:400px;
+							Height:300px;
+							
+							
+						}
+						
+						
+					
+					</style>
+
+	</head>
+	
+		<body>
+		<h1 class="animated shake">Tanveer Saini</h1>
+		<h1 class="animated"></h1>
+		<img src="https://images.pexels.com/photos/235674/pexels-photo-235674.jpeg?w=940&h=650&auto=compress&cs=tinysrgb">
+		<p id="emailText">?</p>
+		<button id="clickButton">Contact Me</button>
+		
+		
+		<script>
+			var myButton= document.getElementById("clickButton");
+			var MyEmailAddress = document.getElementById("emailText");
+			myButton.addEventListener('click', showEmail, false);
+			function showEmail(){
+				MyEmailAddress.textContent = "tanveersaini2@gmail.com";
+				
+			}
+			
+
+		</script>
+		</body>
+		
+		
+	
+</html>
